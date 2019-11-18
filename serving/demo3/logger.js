@@ -4,7 +4,6 @@ if (process.env.NODE_ENV !== 'production') {
   myTransports = [
     new transports.Console({
       format: format.combine(
-
         format.prettyPrint(), format.colorize()
       )
     })];
