@@ -24,7 +24,7 @@ kubectl apply -f service.yaml
 
 Run locally
 ```
-npm start
+npm run dev
 ```
 
 Build and Push container image
