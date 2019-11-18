@@ -4,10 +4,9 @@
   "description": "nodejs knative demos",
   "main": "app.js",
   "scripts": {
-    "dev": "appsody debug",
     "start": "appsody run",
-    "deploy": "appsody deploy --knative -t quay.io/csantanapr/kubecon-express-appsody --push",
-    "deploy-no-push": "appsody deploy --knative -t quay.io/csantanapr/kubecon-express-appsody"
+    "dev": "appsody debug",
+    "deploy": "appsody deploy --knative -t quay.io/csantanapr/kubecon-express-appsody --push"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
