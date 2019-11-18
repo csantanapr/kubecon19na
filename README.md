@@ -27,6 +27,13 @@ Run locally
 npm run dev
 ```
 
+Add build to manage libs
+```javascript
+require('./health.js')(app);
+require('./metrics.js')(app);
+require('./logger.js')(app);
+```
+
 Build and Push container image
 ```
 push.sh
