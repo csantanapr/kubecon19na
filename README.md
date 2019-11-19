@@ -74,7 +74,12 @@ Appsodify and Knativify an existing node.js express App
     ```
     npm start
     ```
-
+    - Application endpoint: http://localhost:3000/
+    - Health endpoint: http://localhost:3000/health
+    - Liveness endpoint: http://localhost:3000/live
+    - Readiness endpoint: http://localhost:3000/ready
+    - Metrics endpoint: http://localhost:3000/metrics
+    - Dashboard endpoint: http://localhost:3000/appmetrics-dash (development only)
 1. Deploy Knative Appsody based App
     ```
     npm run deploy
