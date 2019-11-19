@@ -22,16 +22,16 @@ kubectl apply -f service.yaml
 ```
 ## Demo 3: Build to manage nodejs-express
 
-Run locally
-```
-npm run dev
-```
-
 Add build to manage libs
 ```javascript
 require('./health.js')(app);
 require('./metrics.js')(app);
 require('./logger.js')(app);
+```
+
+Run locally
+```
+npm run dev
 ```
 
 Build and Push container image
